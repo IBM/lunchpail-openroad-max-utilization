@@ -1,0 +1,8 @@
+apiVersion: lunchpail.io/v1alpha1
+kind: ParameterSweep
+metadata:
+  name: openroad-max-util-sweep
+spec:
+  min: 20
+  max: 40
+  step: 1

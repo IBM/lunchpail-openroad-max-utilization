@@ -9,7 +9,7 @@ spec:
   command: python3 -u main.py
   description: >-
     Our goal is to find a maximum acheivable utilization for a given design.
-  image: ghcr.io/lunchpail/openroad:0.3.5
+  image: ghcr.io/ibm/lunchpail-openroad:0.3.5
   supportsGpu: true
   env:
     COPYIN_REPO: https://github.com/ieee-ceda-datc/aspdac-2022-tutorial/tree/main/part4-k8s-single-node-ray-demo/workspace

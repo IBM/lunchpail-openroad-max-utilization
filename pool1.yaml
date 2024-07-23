@@ -4,4 +4,4 @@ metadata:
   name: openroad-max-util-pool1
 spec:
   workers:
-    count: 16
+    count: {{ .Values.workers | default 1 }}

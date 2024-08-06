@@ -3,7 +3,6 @@ kind: Application
 metadata:
   name: openroad-max-util
 spec:
-  api: workqueue
   role: worker
   tags: [EDA]
   command: python3 -u main.py
